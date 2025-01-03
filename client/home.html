@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+		<title>UniSync</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="Scheduling Web App to organize and optimize your schedule.">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+    <body>
+        <div class="header">
+            <h1>Welcome to UniSync</h1>
+            <p>Your personal helper for managing time effectively.</p>
+        </div>
+        <div class="main-content">
+            <div class="intro">
+                <h2>Get Started</h2>
+                <p>Describe your scheduling needs, and let us assist you in organizing your day!</p>
+                <textarea id="prompt" placeholder="Enter your scheduling request here..."></textarea>
+                <button id="submit">Generate Schedule</button>
+            </div>
+            <div class="output">
+                <h2>Output</h2>
+                <div id="response">Your schedule will appear here.</div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2025 Scheduling Assistant. All rights reserved.</p>
+        </div>
+        <script src="client.js"></script>
+    </body>
+</html>
